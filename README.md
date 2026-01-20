@@ -48,7 +48,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 
 ## ⚡ Repository Structure
-'''bash
+`
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -71,5 +71,5 @@ data-warehouse-project/
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-'''
+└── requirements.txt                    # Dependencies and requirements for the project 
+`
