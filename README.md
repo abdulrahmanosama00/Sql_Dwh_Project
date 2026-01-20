@@ -48,28 +48,27 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 
 ## ⚡ Repository Structure
-`
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                      # Raw source data (ERP and CRM datasets)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── docs/                          # Project documentation and architecture artifacts
+│   ├── etl.drawio                 # ETL techniques and processing methods (Draw.io)
+│   ├── data_architecture.drawio   # Overall data architecture diagram
+│   ├── data_catalog.md            # Dataset catalog with fields, descriptions, and metadata
+│   ├── data_flow.drawio           # End-to-end data flow diagram
+│   ├── data_models.drawio         # Dimensional data models (Star Schema)
+│   └── naming-conventions.md      # Naming standards for tables, columns, and files
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/                       # SQL scripts for ETL pipelines and transformations
+│   ├── bronze/                    # Raw data ingestion and landing layer
+│   ├── silver/                    # Data cleansing, standardization, and transformation
+│   └── gold/                      # Curated analytical models and business-ready views
 │
-├── tests/                              # Test scripts and quality files
+├── tests/                         # Data quality checks and validation scripts
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project 
-`
+├── README.md                      # Project overview, setup instructions, and usage guide
+├── LICENSE                        # Repository license
+├── .gitignore                     # Files and directories excluded from version control
+└── requirements.txt               # Project dependencies and environment requirements
+
