@@ -48,6 +48,8 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 
 ## ⚡ Repository Structure
+
+```text
 data-warehouse-project/
 │
 ├── datasets/                      # Raw source data (ERP and CRM datasets)
@@ -71,4 +73,3 @@ data-warehouse-project/
 ├── LICENSE                        # Repository license
 ├── .gitignore                     # Files and directories excluded from version control
 └── requirements.txt               # Project dependencies and environment requirements
-
